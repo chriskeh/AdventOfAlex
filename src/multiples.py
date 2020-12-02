@@ -18,7 +18,8 @@ def main():
 
     sum_of_3 = sum_multiples(3, 1000)
     sum_of_5 = sum_multiples(5, 1000)
-    total = sum_of_3 + sum_of_5
+    sum_of_15 = sum_multiples(15, 1000)
+    total = sum_of_3 + sum_of_5 - sum_of_15
 
     # print("Sum3: {}".format(sum_of_3))
     # print("Sum5: {}".format(sum_of_5))
